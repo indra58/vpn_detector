@@ -1,3 +1,16 @@
+## 1.3.0
+
+### Added
+- Added Swift Package Manager (SwiftPM) support for iOS.
+
+### Changed
+- Migrated iOS source files to SwiftPM-compatible directory layout.
+- Removed Objective-C bridge layer; plugin now registers directly via Swift.
+- Widened `connectivity_plus` dependency to `>=6.1.4 <8.0.0` to support v7.x.
+- Updated minimum Flutter SDK to 3.24.0.
+- Updated minimum Dart SDK to 3.0.0.
+- Synced podspec version to 1.3.0.
+
 ## 1.2.0
 
 ### Breaking Changes
