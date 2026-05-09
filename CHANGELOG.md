@@ -1,3 +1,8 @@
+## 1.3.1
+
+### Fixed
+- iOS: Removed an invalid `flutter_wrapper` package reference from the SwiftPM target manifest that caused `unknown package 'flutter_wrapper' in dependencies of target 'vpn_detector'` build failures when SwiftPM integration was enabled. The target now declares its `Sources/vpn_detector` path explicitly, matching the first-party Flutter plugin pattern. Thanks to @AlexV525 (#12).
+
 ## 1.3.0
 
 ### Added
